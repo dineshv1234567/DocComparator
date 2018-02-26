@@ -1,0 +1,25 @@
+{
+  "name": "js_assignment",
+  "version": "1.0.0",
+  "description": "A File comparator that compares your document against standard document and displays noun count and percentage upto which it is good ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshv1234567/JsAssignment.git"
+  },
+  "keywords": [
+    "fs",
+    "natural",
+    "noun",
+    "wordpos"
+  ],
+  "author": "Dinesh dineshverma3008@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dineshv1234567/JsAssignment/issues"
+  },
+  "homepage": "https://github.com/dineshv1234567/JsAssignment#readme"
+}
