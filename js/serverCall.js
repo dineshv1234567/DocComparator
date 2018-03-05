@@ -14,19 +14,19 @@ function getData(){
         //getting the variables from json file
         //details of standard document
 console.log(obj[0].nouns);
-        var standardNouns = obj[0].nouns;
-        var standardAdjectives = obj[0].adjectives;
-        var standardVerbs = obj[0].verbs;
-        var standardWordCount = obj[0].wordCount;
+        var standardNouns = obj[0].standardNouns;
+        var standardAdjectives = obj[0].standardAdjectives;
+        var standardVerbs = obj[0].standardVerbs;
+        var standardWordCount = obj[0].standardWordCount;
         //details of eval document
-        var evalNouns = obj[1].nouns;
-        var evalAdjectives = obj[1].adjectives;
-        var evalVerbs = obj[1].verbs;
-        var evalWordCount = obj[1].wordCount;
+        var evalNouns = obj[1].evalNouns;
+        var evalAdjectives = obj[1].evalAdjectives;
+        var evalVerbs = obj[1].evalVerbs;
+        var evalWordCount = obj[1].evalWordCount;
         //commmon properties
-        var commonNouns = obj[2].nouns;
-        var commonAdjectives = obj[2].adjectives;
-        var commonVerbs = obj[2].verbs;
+        var commonNouns = obj[2].similarNouns;
+        var commonAdjectives = obj[2].similarAdjectives;
+        var commonVerbs = obj[2].similarVerbs;
         
         var total = standardAdjectives+standardNouns+standardVerbs;
         var marks = commonNouns+commonVerbs+commonAdjectives;

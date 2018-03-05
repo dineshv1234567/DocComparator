@@ -130,20 +130,20 @@ function compareVerbs(){
     var score = {
 "output":[
         {
-          wordCount : standardLength,
-          nouns : standardNouns.length,
-          adjectives : standardAdjectives.length,
-          verbs : standardVerbs.length
+          standardWordCount : standardLength,
+          standardNouns : standardNouns.length,
+          standardAdjectives : standardAdjectives.length,
+          standardVerbs : standardVerbs.length
         }, 
         {
-          wordCount : evalLength,
-          nouns : evalNouns.length,
-          adjectives : evalAdjectives.length,
-          verbs : evalVerbs.length
+          evalWordCount : evalLength,
+          evalNouns : evalNouns.length,
+          evalAdjectives : evalAdjectives.length,
+          evalVerbs : evalVerbs.length
         }, {
-          nouns : similarNouns.length,
-          adjectives : similarAdjectives.length,
-          verbs : similarVerbs.length
+          similarNouns : similarNouns.length,
+          similarAdjectives : similarAdjectives.length,
+          similarVerbs : similarVerbs.length
       }
     ]
     }

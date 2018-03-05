@@ -1,21 +1,21 @@
 {
   "output": [
     {
-      "wordCount": 3570,
-      "nouns": 504,
-      "adjectives": 168,
-      "verbs": 255
+      "standardWordCount": 3570,
+      "standardNouns": 504,
+      "standardAdjectives": 168,
+      "standardVerbs": 255
     },
     {
-      "wordCount": 3422,
-      "nouns": 889,
-      "adjectives": 211,
-      "verbs": 174
+      "evalWordCount": 3422,
+      "evalNouns": 889,
+      "evalAdjectives": 211,
+      "evalVerbs": 174
     },
     {
-      "nouns": 602,
-      "adjectives": 112,
-      "verbs": 111
+      "similarNouns": 602,
+      "similarAdjectives": 112,
+      "similarVerbs": 111
     }
   ]
 }
