@@ -42,17 +42,17 @@ var standardLength = standardTokens.length;
 var evalLength = evalTokens.length;
 
 if(evalLength <= standardLength-range || evalLength >= standardLength+range){
-  console.log("Document size invalid");
+  console.log("Length criteria failed");
   return;
 }
 
 else{
   //call for calculating everything
-  calculate(standardTokens, evalTokens, end);
+  calculate(standardTokens, evalTokens);
 }
 
 //counting nouns, adjectives and vers for both documents to compare
-function calculate(standard, evaluate, callback){
+function calculate(standard, evaluate){
   var standardTagged = tagger.tag(standard);
   var evalTagged = tagger.tag(evaluate);
   
