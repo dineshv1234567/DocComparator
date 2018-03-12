@@ -1,6 +1,5 @@
-package.json
 npm-debug.log
 package-lock.json
 ..gitignore.swp
-.gitignore
+node_modules/
 
